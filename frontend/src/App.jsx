@@ -1,8 +1,7 @@
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
-// 백엔드 서버 주소 (나중에 배포하면 이 부분을 수정해야 해)
-const API_URL = 'http://localhost:5000/api/todos';
+const API_URL = ' https://to-do-list-subin.onrender.com/api/todos';
 
 function App() {
   const [todos, setTodos] = useState([]);
